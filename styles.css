@@ -1,11 +1,6 @@
 /* This is a CSS comment. Comments are ignored by the browser */
-.profile-pic {
-  width: 200px;
-  height: 200px;
-  border-radius: 50%;   /* makes it circular */
-  object-fit: cover;
-}
+
 /* Use CSS selectors and rules to style your portfolio page */
 body {
-  font-family: sans-serif;
+  font-family: Helvetica;
 }
