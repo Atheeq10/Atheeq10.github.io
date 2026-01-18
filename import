@@ -1,0 +1,3 @@
+npx create-next-app@latest my-portfolio --typescript --tailwind --eslint
+npx shadcn-ui@latest init
+npm install motion lucide-react clsx tailwind-merge
