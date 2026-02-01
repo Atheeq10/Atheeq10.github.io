@@ -1,101 +1,150 @@
 <!DOCTYPE html>
-<html>
-  <!-- This is an HTML comment. Comments are ignored by the browser and do not appear on the document. -->
-  <!-- An HTML page has a <head> and a <body>. -->
-  
-  <!-- Information in the <head> element does not appear on the document. This element is usually used to store information used by the document. -->
-  <head>
-    <title>The page title shows up in the tab of your browser, and is also used by Google when indexing the page</title>
-    <!-- [meta tags](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/meta) contain information about the page, which cannot be represented by other tags -->
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-    <meta name="description" content="The portfolio of a JC student"> <!-- search engine description used by Google. Edit this. -->
-    <meta name="keyword" content="portfolio">  <!-- search engine tags used by Google. Add more of your own. -->
-    
-    <!-- If you'd like nicer "default" theming for your portfolio, consider using a baseline css stylesheet e.g. https://newcss.net/ -->
-    <link rel="stylesheet" href="styles.css">  <!-- External CSS for defining your own stylesheet -->
-  </head>
-  
-  <!-- The <body> tag is where the visible content goes. -->
-  <!-- See https://developer.mozilla.org/en-US/docs/Web/HTML/Content_categories for tips on organising content elements. -->
-  <body>
-    <!--
-    The (optional) <header> HTML element represents introductory content that would usually be shown at the top of every page in a group of pages.
-    For example, a logo or top banner, with a navigation bar.
-    -->
-    <header></header>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <!--
-    The (optional) <section> element is used to encapsulate standalone sections of content.
-    It makes sense to use them for a portfolio, but perhaps not for an essay.
-    -->
-    <img src="images/profile.jpg" alt="My profile picture" class="profile-pic">
-    <section>
-      <h1>Atheeq Mahbub</h1>
-      <p>Current computing student at Nanyang Junior College.</p>
-      <p>Understands the value of time by replacing it with AI.</p>
-      
-    </section>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,600;1,600&display=swap" rel="stylesheet">
 
-    <section>
-      <h2>About me</h2>
-      <!-- Your organised portfolio content goes here. -->
-      <!--
-      Use Google / ChatGPT to determine which is the most semantically appropriate element tag to use for each type of content:
-      paragraph text, bulleted/numbered lists, tables, images, separators, ...
-      -->
-      <p>A reliable and disciplined student with strong communication, teamwork, and problem-solving skills.</p>
-      <p>Quick to learn, adaptable, and committed to delivering high-quality results. Enjoys working in team setting activity.</p>
-      <p> As the oldest children of 5, knows what it’s like to lead by example and demonstrate high level of responsibility.Interested in sports,tech and business</p>
-    </section>
-    
-    <h2 class="heading">Areas of focus and Development</h2>
-        <li>Football has been a sport I picked up since I turned 3</li>
-        <li>Coding: Python, Html, CSS...</li>
-        <li>Math and Physics </li>
-        <li>Entrepenuership: Admire startups with humble backgrounds</li>
-        <li>Cooking</li>
-        <li>Technology: Finding </li>
-        <li>Self improvement</li>
-</div>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
-    
-    <h2>Where you would have probably seen me</h2>
-    <ul>
-      <li><a href="https://www.straitstimes.com/sport/schools/hugo-gauthiers-extra-time-winner-helps-sji-claim-maiden-a-div-football-title-beating-nanyang-jc-2-1" target= "_blank" rel= "noopener noreferrer">Straits Times - SJI vs NYJC</a></li>
-      <li><a href="https://www.straitstimes.com/sport/schools/from-keeper-to-scorer" target="_blank" rel="noopener norefferer">Straits Times - Tanjong Katong  vs Victoria Secondary</a></li>
-    <ul>
-</div>
+  <link rel="stylesheet" href="styles.css">
 
-<h2>My story</h2>
-<p>As the saying goes, “With great power comes great responsibility.” As the eldest of five children, I understand the challenges of being a role model from a young age. Learning to persevere through difficult situations has shaped my mindset and driven me to turn obstacles into stepping stones for growth. My journey is not just about personal progress, but about inspiring others who grow up with many siblings to recognise that challenges often come with hidden blessings. </p>
-    
-</div>
-
-    <h2>Get in Touch</h2>
-    <div id="contact-form">
-        <form method="POST" action="https://formspree.io/email@email.com">
-            <input type="hidden" name="_subject" value="Contact request from personal website">
-            <input type="email" name="_replyto" placeholder="Your email" required="">
-            <textarea name="message" placeholder="Your message" required=""></textarea>
-            <button type="submit">Send</button>
-        </form>
+  <title>Portfolio</title>
+</head>
+<body>
+  <!-- NAVBAR -->
+  <nav>
+    <div class="left">
+      <a href="/">Atheeq Mahbub</a>
     </div>
-<h4>My Socials</h4>
-<ul>
-<li><a href="https://www.instagram.com/notatheeq?igsh=MWh1OTUzb2wyb2g3bg%3D%3D&utm_source=qr" target="_blank" rel="noopener noreferrer">Instagram</a></li>
-<li><a href="https://www.linkedin.com/in/atheeq-mahbub-982b621b4/" target="_blank" rel="noopener noreferrer">LinkedIn</a></li>
-</ul>
-    
 
-   
-    <!-- Add more sections for your remaining headers -->
-    
-    
-    <!--
-    The (optional) <footer> HTML element represents content that appears at the bottom of every page in a group of pages.
-    For example, copyright information, licensing terms, contact information.
-    -->
-    <footer></footer>
-  </body>
+    <div class="right">
+      <a href="https://github.com/Atheeq10" target="_blank" rel="noopener noreferrer">
+        <i class="fa-brands fa-github"></i>
+        <span>Github</span>
+      </a>
+      
+      <a href="https://sg.linkedin.com/in/atheeq-mahbub-265671359" target="_blank" rel="noopener noreferrer">
+        <i class="fa-brands fa-linkedin"></i>
+        <span>Linkedin</span>
+      </a>
+      
+      <a href="mailto: atheeqmahbub@gmail.com">
+        <i class="fa-solid fa-envelope"></i>
+        <span>Email</span>
+      </a>
+
+      <a href="https://www.instagram.com/notatheeq/" target="_blank" rel="noopener noreferrer">
+        <i class="fa-brands fa-instagram"></i>
+        <span>Instagram</span>
+      </a>
+    </div>
+  </nav>
+
+  <main>
+    <!-- SECTION 1: Hero -->
+    <section class="hero-section">
+      <div class="text">
+        <h2>Hi, I am Atheeq Mahbub 👋</h2>
+        <p>Current computing student athlete at Nanyang Junior College.<br/>Understands the value of time by replacing it with tech.</p>
+        
+        <div class="links">
+          <a href="#skills">
+            <i class="fa-solid fa-code"></i>
+            <span>Skills</span>
+          </a>
+          
+          <a href="#testimony">
+            <i class="fa-solid fa-book"></i>
+            <span>My Story</span>
+          </a>
+          
+          <a href="#contact">
+            <i class="fa-solid fa-phone"></i>
+            <span>Contact</span>
+          </a>
+        </div>
+      </div>
+
+      <div class="headshot">
+        <img src="images/profile-pic.webp" alt="Atheeq pfp ">
+      </div>
+    </section>
+
+    <!-- SECTION 2: Skills -->
+    <section id="skills" class="skills-section">
+      <h2>Areas of Focus and Development.</h2>
+      <div class="text">
+       <p>Since age three, football has served as the foundation of my character, instilling a profound sense of discipline, resilience, and collaborative strategy. 
+       I apply this same rigorous work ethic to my technical pursuits in Python, HTML, and CSS, underpinned by a strong academic interest in mathematics and physics. 
+       Driven by the ingenuity of entrepreneurial startups, I am committed to leveraging technology to solve complex, real-world challenges. 
+       This dedication to growth extends beyond academics into creative outlets like cooking, reflecting a holistic and persistent drive for self-improvement, analytical excellence, and impactful innovation.</p>
+      </div>
+      <div class="cells">
+        <div class="cell">
+          <img src="images/worldcupball.webp" alt="html logo">
+          <span>Football</span>
+        </div>
+        
+        <div class="cell">
+          <img src="images/python-logo.webp" alt="css logo">
+          <span>Python</span>
+        </div>
+        
+        <div class="cell">
+          <img src="images/html logo.webp" alt="javascript logo">
+          <span>HTML</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION 3: Testimony -->
+    <section id="testimony" class="testimony-section">
+      <h2>My Story</h2>
+
+      <div class="group">
+        <div class="person-details">
+          <img src="images/pfp-img.webp" alt="Atheeq Mahbub">
+          <p>Atheeq Mahbub</p>
+          <p>18 year-old student athlete</p>
+        </div>
+
+        <div class="text">
+          <p>As the saying goes, “With great power comes great responsibility.” As the eldest of five children, 
+          I understand the challenges of being a role model from a young age. Learning to persevere through difficult situations has shaped my mindset and driven me to turn obstacles into stepping stones for growth. 
+          My journey is not just about personal progress, but about inspiring others who grow up with many siblings to recognise that challenges often come with hidden blessings.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION 4: Contact -->
+    <section id="contact" class="contact-section">
+      <h2>Contact</h2>
+
+      <div class="group">
+        <div class="text">
+          <p>If you would like to get in touch, feel free to drop me a message using the form below!</p>
+
+        </div>
+
+        <form>
+          <label for="name">Name</label>
+          <input type="text" id="name">
+
+          <label for="email">Email</label>
+          <input type="email" id="email">
+
+          <label for="message">Message</label>
+          <textarea id="message" cols="30" rows="10"></textarea>
+
+          <button type="submit">Send Message</button>
+        </form>
+      </div>
+    </section>
+  </main>
+</body>
 </html>
